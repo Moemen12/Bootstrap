@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+   
+
+
+    <!--
+     large screen             lg
+     medium screen            md
+     small screen             sm
+     extra small screen       xs
+
+    col-lg-4 
+    col = column
+    lg = large
+    4 = column number
+
+  visible : show 
+  hidden  : hide 
+  syntax :  visible-(screen Name) : visible-lg
+            hidden-(screen Name)-(block / inline / inline-block ) : visible-md-block
+             
+ Float clear Fixing
+ -------------------
+  <div class="clearfix"></div>
+
+  Offset make a margin before any element
+  syntax :  col-(screen Name)-offset-(column number that will take) : col-lg-offset-3
+  
+   Ordering How to change the ordering of elements .
+   To change element order there is 2 word we must to know it .
+   (push & pull)
+   push an element to specific place and pull an element to the old element place in grid system .
+   syntax:  col-(screen Name)-push-(column number that will take) : col-lg-push-3
+   -------
+            col-(screen Name)-pull-(column number that will take) : col-lg-pull-9
+    
+    center-block : center an element (margin:auto)
+    img-responsive : make the image responsive and it won't go out his own box
+
+    Navbar:
+    -------
+    navbar-inverse : color (black background , color white)
+    navbar-default : color (white background , color black)
+    navbar-fixed-top : make navigation bar fixed at the top
+    navbar-fixed-bottom : make navigation bar fixed at the bottom
+    navbar-right : push navbar to right direction
+    navbar-left : push navbar to left direction
+
+ 
+
+   
+
+
+
+    -->
+ 
+  </head>
+  <body>
+    <!--
+    <div class="container">
+        <div class="row">
+           <div class="col-lg-6 col-xs-12 hidden-lg">
+             <div class="os">This div will be hidden in medium screen</div>
+            </div>
+            <div class="col-lg-6 col-xs-12 visible-md-block">
+            <div class="os new">This div will be appear</div>
+            </div>
+            <div class="col-lg-6 col-xs-12">
+            <div class="os"># Product 3</div>
+            </div>
+            <div class="col-lg-6 col-xs-12">
+            <div class="os"># Product 4</div>
+            </div>
+            <div class="col-lg-6 col-xs-12">
+                <div class="os"># Product 1</div>
+               </div>
+               <div class="col-lg-6 col-xs-12">
+               <div class="os"># Product 2</div>
+               </div>
+               <div class="col-lg-6 col-xs-12">
+               <div class="os"># Product 3</div>
+               </div>
+               <div class="col-lg-6 col-xs-12">
+               <div class="os"># Product 4</div>
+               </div>  
+        </div>
+    </div>
+/-----------------------------------
+
+
+       <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-6 col-xs-12">
+              <div class="os"># Product 1</div>
+               </div>
+               <div class="col-lg-3 col-lg-offset-3 col-md-6 col-xs-12">
+               <div class="os"># Product 2</div>
+               </div> 
+        </div>
+    </div>
+   
+  /-----------------------------------
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-4 col-lg-push-8">
+            <div class="os"># Product 1</div>
+             </div>
+             <div class="col-lg-8 col-lg-pull-4">
+             <div class="os"># Product 2</div>
+             </div> 
+      </div>
+  </div>
+
+  /-----------------------------------
+
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-md-3 col-xs-12">
+                <img class="img-responsive center-block" src="images.jpeg" alt="">
+              </div>
+              <div class="col-md-9 col-xs-12">
+                <h1>This is a good avatar image</h1>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, eveniet sit? Numquam eum soluta 
+                  a cupiditate illo, culpa error. Minima explicabo, dolor fugiat deleniti delectus vitae error voluptate quas expedita?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, eveniet sit? Numquam eum soluta 
+                  a cupiditate 
+                </p>
+              </div>
+            </div>
+             </div>
+             <div class="col-lg-4 col-md-6">
+             <div class="product"># Product 2</div>
+             </div> 
+             <div class="col-lg-4 col-md-6">
+            <div class="product"># Product 3</div>
+            </div> 
+
+            <div class="col-lg-4 col-md-6">
+              <div class="product"># Product 4</div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+               <div class="product"># Product 5</div>
+               </div> 
+               <div class="col-lg-4 col-md-6">
+              <div class="product"># Product 6</div>
+              </div> 
+      </div>
+  </div>
+
+   -->
+  
+   <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ourNav" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Elzero <span>Inc.</span></a>
+      </div>
+  
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="ourNav">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Company</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Programming</a></li>
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Desktop</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Web Hosting</a></li>
+
+            </ul>
+          </li>
+          <li><a href="#">Map</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+
+  <div id="myslide" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myslide" data-slide-to="0" class="active"></li>
+      <li data-target="#myslide" data-slide-to="1"></li>
+      <li data-target="#myslide" data-slide-to="2"></li>
+      <li data-target="#myslide" data-slide-to="3"></li>
+    </ol>
+  
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img  src="image/photo2.jpg" alt="...">
+        <div class="carousel-caption">
+          ...
+        </div>
+      </div>
+      <div class="item">
+        <img src="image/photo3.jpg" alt="...">
+        <div class="carousel-caption">
+          ...
+        </div>
+      </div>
+      ...
+    </div>
+
+    <div class="item">
+      <img src="..." alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    ...
+  </div>
+
+  <div class="item">
+    <img src="..." alt="...">
+    <div class="carousel-caption">
+      ...
+    </div>
+  </div>
+  ...
+</div>
+
+<div class="item">
+  <img src="..." alt="...">
+  <div class="carousel-caption">
+    ...
+  </div>
+</div>
+...
+</div>
+  
+    <!-- Controls -->
+    <a class="left carousel-control" href="#myslide" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myslide" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  
+
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  </body>
+</html>

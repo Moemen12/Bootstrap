@@ -1,0 +1,74 @@
+
+body{
+    padding: 70px;
+    height: 5000px;
+}
+
+
+
+
+
+
+/* Start Overriding Bootstrap */
+.navbar{
+   min-height: 70px;
+}
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: #E41B17;
+
+}
+
+.navbar-inverse .navbar-brand {
+    color: #BBB;
+    font-size: 30px;
+    line-height: 40px;
+}
+.navbar-inverse .navbar-brand span{
+    color:#E41B17 ;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color: #BBB;
+    padding-top: 25px ;
+    padding-bottom: 25px ;
+    font-size: 16px;
+}
+.navbar-inverse .navbar-brand{
+    color:#BBB;
+}
+.dropdown-menu{
+    background-color:#333;
+    border-top: 1px solid #E41B17;
+}
+
+.dropdown-menu>li>a{
+    color: #FFF;
+    padding: 6px 20px;
+    -webkit-transition:padding 0.5s ease;
+    -moz-transition:padding 0.5s ease;
+    -o-transition:padding 0.5s ease;
+    transition:padding 0.5s ease;
+
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus{
+    background-color: #E41B17;
+    color: #FFF;
+    padding-left: 25px;
+}
+
+.dropdown-menu .divider{
+    background-color: #871818;
+}
+
+.navbar-right .dropdown-menu{
+   left: 0;
+   right:auto ;
+}
+
+.navbar-toggle{
+    margin-top: 18px;
+}
